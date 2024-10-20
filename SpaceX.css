@@ -1,0 +1,175 @@
+@import url(./HeadFoot.css);
+
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 60px;
+}
+
+#navlinks, #navlinks2{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navlinks>a, #navlinks2>a{
+    text-decoration: none;
+    color: white;
+}
+
+#navlinks2{
+    width: 250px;
+} */
+/* header ends  */
+
+#sec1{
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+}
+
+#sec2>ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    list-style-type: none;
+    /* padding-left: ; */
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+ul>li>img{
+    height: 450px;
+    width: 450px;
+}
+
+ul>li>p{
+    text-align: center;
+}
+
+/* for hover of images */
+
+.imgs{
+    height: 450px;
+    width: 450px;
+    background-size: cover;
+}
+
+#div1{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpacexYearofDragonTeeBlackFront_600x.png?v=1709407468);
+}
+#div1:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpacexYearofDragonTeeBlackBack_900x.png?v=1709407468);
+}
+
+#div2{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXCrewRustFront_600x.png?v=1699915190);
+}
+#div2:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXCrewRustDetail_900x.png?v=1699915190);
+}
+
+#div3{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XCollectionLongSleeveBlackFront_600x.png?v=1699907344);
+}
+#div3:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XCollectionLongSleeveBlackDetail_900x.png?v=1699907344);
+}
+
+#div4{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/STARSHIP_STICKERPACK_grid_800x_21aac1c3-1f2b-4f2a-8ccf-5a8e36e41750_600x.png?v=1694734282);
+}
+#div4:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/STARSHIP_STICKERPACK_INPACKAGING_800x_7e0c3098-86d0-441c-8fd9-7dc172e1996e_800x.png?v=1694734283);
+}
+
+#div5{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/StarlinkAnywhereTumblerMiniMilitaryGreen_600x.png?v=1700088198);
+}
+#div5:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/StarlinkAnywhereTumblerMiniMilitaryGreenNoCap_900x.png?v=1700088198);
+}
+
+#div6{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHolidaySweaterDragonFront_600x.png?v=1699579646);
+}
+#div6:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHolidaySweaterDragonCloseup_800x.png?v=1699579646);
+}
+
+/* sec2 ends  */
+
+#sec3{
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+a{
+    text-decoration: none;
+}
+a>#btn1{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+a>#btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+#div-btn{
+    padding-top: 50px;
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+/* footer  */
+
+/* footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#foot{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 80px; 
+}
+
+#foot>a{
+    color: white;
+}
+
+#foot>a:hover{
+    color: rgb(71, 70, 70);
+}
+
+#a-last{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    color: white;
+} */
+
